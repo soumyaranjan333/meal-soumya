@@ -1,0 +1,31 @@
+body {
+    /* background-color: #feada6; */
+    background-image: url("7.jpg")
+}
+
+.specialMeal {
+    background-image: url("6.jpg");
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+}
+.meals .card:hover{
+    transform: scale(1.05, 1.05);
+    
+}
+.showMeal .card:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.specialMeal img {
+    height: 20rem;
+    width: 30rem;
+}
+@media (max-width: 575.98px) {
+    .tagLine{
+        font-size: 0.7em;
+    }
+}
